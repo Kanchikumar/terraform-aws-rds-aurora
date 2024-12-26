@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-rds-aurora
+  description: A Terraform module for managing AWS RDS Aurora resources, forked from the official repository.
+  annotations:
+    github.com/project-slug: Kanchikumar/terraform-aws-rds-aurora
+    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/Kanchikumar/terraform-aws-rds-aurora/main/README.md
+  tags:
+    - terraform
+    - aws
+    - rds
+    - aurora
+spec:
+  type: library
+  lifecycle: experimental
+  owner: Infra
